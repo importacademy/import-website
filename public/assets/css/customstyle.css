@@ -1,0 +1,113 @@
+
+:root {
+    --txt-blue: #0176ff;
+    --txt-yellow: #ffa50d;
+    }
+
+body.accent-custom { font-family: 'Wix Madefor Display', sans-serif; font-weight: 700; background-color: #fcf4de; color:#000000; }
+
+.accent-custom .fyellow { color:var(--txt-yellow); }
+
+.accent-custom .header { background-color: #fcf4de; }
+
+.accent-custom .navbar-light .navbar-nav .nav-link  { color: #000000; }
+
+.accent-custom .navbar-light .navbar-nav .active>.nav-link, 
+.accent-custom .navbar-light .navbar-nav .nav-link.active, 
+.accent-custom .navbar-light .navbar-nav .nav-link.show, 
+.accent-custom .navbar-light .navbar-nav .show>.nav-link {
+    color: var(--txt-yellow);
+}
+
+.accent-custom .donate-button {
+}
+
+.accent-custom .donate-form {
+    
+}
+.accent-custom .navbar-light .navbar-toggler { border:0px; }
+
+.accent-custom .hero-caption { max-width:680px; margin: 0 auto; }
+
+.accent-custom .trips_icons { 
+    background: rgba(255, 165, 13,0.1);
+    color: var(--txt-yellow);
+ }
+
+.accent-custom .trips_detail h4 { font-size: 20px; }
+
+.accent-custom .trips_detail p { line-height: 1.5; }
+
+
+.accent-custom .list_facts_wrap { max-width:100%; }
+
+.accent-custom .articles_grid_thumb { text-align:center; padding-top: 25px; }
+
+.accent-custom .articles_grid_thumb img { border-radius:50%; -moz-border-radius:50%; -webkit-border-radius:50%; width: 210px; height: 210px; border:1px solid #d3d3d3;  }
+
+.accent-custom .articles_grid_author { justify-content: center; }
+
+.accent-custom .footer-widget { padding: 0px; }
+
+.accent-custom .footer-widget ul li a { color: #000000; }
+
+.accent-custom .footer-widget ul li a:hover { color: #ffcb3e; }
+
+.accent-custom .footer-menu li.active a { color: var(--txt-yellow); }
+
+.accent-custom .hero_banner { background-color:#fcf7eb;  }
+
+.accent-custom .trips_wrap { background: #fcf4de; }
+
+.accent-custom .articles_grid_style { background: #fcf4de; }
+.accent-custom .articles_grid_style:hover { background-color: #fcf7eb; cursor: pointer; -webkit-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in; }
+
+.accent-custom  .big-header-capt { font-family: 'Rubik', sans-serif; font-weight: 500 !important; }
+
+.accent-custom .cl_2 { color: #000000; }
+
+.accent-custom .customize-tab.tabs_creative .nav-link { background: #fcf7eb; border: 1px solid #e5dccd !important; color: #000000; }
+
+.accent-custom .customize-tab.tabs_creative .nav-link.active { background: #ffa50d !important; color:#ffffff; }
+
+.accent-custom .section_pdng_topbtm { padding:80px 0 80px; }
+
+.accent-custom .list_facts { flex-flow: row wrap; }
+
+.accent-custom .bg_lightorange { background-color: #fcf7eb; }
+
+.accent-custom .cn-info-title { font-size: 18px; color:var(--txt-yellow); }
+
+.accent-custom .cn-info-icon i { font-size: 25px; }
+
+.accent-custom .cn-info-mail a { color: #000000; }
+.accent-custom .cn-info-discord a { color: #000000; }
+.accent-custom .cn-info-discord a:hover { color: #ffcb3e; }
+
+ 
+
+.accent-custom p { font-size: 18px; }
+
+.accent-custom .header.header-fixed { 
+    -webkit-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+ }
+
+ .accent-custom button.close { font-size: 18px; }
+
+.accent-custom .articles_grid_author h4 { font-size: 16px;  }
+
+.accent-custom .articles_grid_caption h4 { font-size: 18px; }
+
+.accent-custom .team_desc ul { list-style: disc; margin-left: 25px;  }
+
+@media (min-width: 1200px) {
+.accent-custom  .big-header-capt {
+    font-size: 100px;
+}
+}

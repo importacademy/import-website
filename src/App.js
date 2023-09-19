@@ -13,6 +13,8 @@ import { Home } from "./components/home";
 import { AboutUs } from "./components/aboutus";
 import { HowItWorks } from "./components/howitworks";
 import { Contact } from "./components/contact";
+import { Discord } from "./components/discord";
+
 // import React, { useState, useEffect } from "react";
 
 function App() {
@@ -40,6 +42,7 @@ function App() {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/how-it-works" element={<HowItWorks />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/discord" element={<Discord />} />
       </Routes>
       <Footer />
     </Router>
